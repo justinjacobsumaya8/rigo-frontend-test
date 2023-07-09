@@ -11,19 +11,19 @@ export default function Home() {
                     <div className="p-5 bg-white absolute w-full z-10 opacity-25"></div>
                     <div className="absolute bg-dark-green text-white h-screen w-full lg:w-[44%]">
                         <div className="text-center lg:text-left px-10 lg:px-16 py-8 mt-8">
-                            <h3 className="text-2xl">Brand New Company</h3>
+                            <h3 className="text-xl lg:text-2xl">Brand New Company</h3>
                         </div>
                         <div className="flex align-middle items-center justify-center h-[70%] lg:h-[80%]">
                             <div className="flex items-stretch justify-between mt-5">
-                                <div>
-                                    <div className="px-12 lg:pt-20 lg:p-32">
+                                <div className="w-[65%] lg:w-full">
+                                    <div className="px-9 lg:pt-20 lg:p-32">
                                         <div>
-                                            <h1 className="text-[35px] leading-[38.5px] lg:text-5xl">Launching 2023</h1>
-                                            <p className="mt-9 text-[14px] leading-[22.4px] lg:text-xl pr-5 lg:pr-0">We are in the middle of updating our website but are still very much available to help you with any upcoming projects.</p>
-                                            <p className="mt-6 font-extralight text-[14px] leading-[22.4px]">Contact us or come and visit our office.</p>
+                                            <h1 className="text-3xl lg:text-5xl">Launching 2023</h1>
+                                            <p className="mt-9 text-[14px] leading-[22.4px] lg:text-xl lg:pr-0">We are in the middle of updating our website but are still very much available to help you with any upcoming projects.</p>
+                                            <p className="mt-5 font-extralight text-[14px] leading-[22.4px]">Contact us or come and visit our office.</p>
                                         </div>
-                                        <div className="my-9 ml-1 lg:ml-0">
-                                            <a href="#" className="bg-visit-office-link text-black text-xs rounded-full px-12 py-3">
+                                        <div className="my-5 lg:my-9 ml-1 lg:ml-0">
+                                            <a href="#" className="bg-visit-office-link text-black text-[10px] rounded-full px-10 py-2 lg:px-12 lg:py-3">
                                                 Visit office
                                             </a>
                                         </div>
@@ -31,10 +31,10 @@ export default function Home() {
                                             <div>
                                                 <span className="text-xs">EMAIL:&nbsp;&nbsp; <span className="font-extralight">test@rigo.agency</span></span>
                                             </div>
-                                            <div className="mt-3">
+                                            <div className="mt-2">
                                                 <span className="text-xs">PHONE:&nbsp;&nbsp; <span className="font-extralight">02071231234</span></span>
                                             </div>
-                                            <div className="mt-3">
+                                            <div className="mt-2">
                                                 <span className="text-xs">ADDRESS:&nbsp;&nbsp; <span className="font-extralight">Big Ben, London, SWA1A OAA</span></span>
                                             </div>
                                         </div>
@@ -47,7 +47,7 @@ export default function Home() {
                                         width={0}
                                         height={0}
                                         sizes="100vh"
-                                        className="lg:hidden w-72 h-full"
+                                        className="lg:hidden w-32 h-[100%]"
                                     />
                                 </div>
                             </div>
